@@ -9,8 +9,8 @@ import mysql.connector
 from operator import itemgetter
 import datetime
 from PIL import ImageTk
-key=4
-ki=-4
+key=4 #variable for Encryption 
+ki=-4 #variable for Decryption 
 
 db_connection=mysql.connector.connect(
     host="localhost",
